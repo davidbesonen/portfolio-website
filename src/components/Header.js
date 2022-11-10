@@ -53,7 +53,7 @@ export default class Header extends Component {
                 I am a {resumeData.role}. {resumeData.roleDescription}
               </h3>
               <hr />
-              {/* <ul className="social">
+              <ul className="social">
                 {resumeData.socialLinks &&
                   resumeData.socialLinks.map((item) => {
                     return (
@@ -64,7 +64,7 @@ export default class Header extends Component {
                       </li>
                     );
                   })}
-              </ul> */}
+              </ul>
             </div>
           </div>
 
